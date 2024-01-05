@@ -1,0 +1,46 @@
+#root {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.main--backround {
+  background-color: #F0F0F0;
+  color: black;
+  min-width: 700px;
+  max-width: 700px;
+  min-height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name {
+  row-gap: -20px;
+}
+
+.name > h1 {
+  margin: -10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 15em;
+  padding-left: 100px;
+  max-width: fit-content;
+}
+
+.contact--info {
+  display: flex;
+  justify-content: start;
+}
+
+.contact--info--text > p {
+  margin: 2px;
+}
+
+.divider {
+  position: absolute;
+  right: 350px;
+}
